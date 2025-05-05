@@ -1,0 +1,19 @@
+@font-face {
+    font-family: UntitledSans;
+    src: url("./Font/UntitledSans/TestUntitledSans-Medium.otf");
+}
+
+/* Layout of the photos on the main page */
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.container img {
+    flex: auto;
+    width: 500px;
+    padding-top: 30px;   
+}
+
